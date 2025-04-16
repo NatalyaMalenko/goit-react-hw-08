@@ -29,6 +29,7 @@ export default function RegistrationForm() {
         <Form className={css.form} autoComplete="off">
           <label className={css.label}>
             <Field
+              className={css.input}
               component={TextField}
               type="text"
               name="name"
@@ -39,6 +40,7 @@ export default function RegistrationForm() {
           </label>
           <label className={css.label}>
             <Field
+              className={css.input}
               component={TextField}
               type="email"
               name="email"
@@ -49,6 +51,7 @@ export default function RegistrationForm() {
           </label>
           <label className={css.label}>
             <Field
+              className={css.input}
               component={TextField}
               type="password"
               name="password"
@@ -57,9 +60,9 @@ export default function RegistrationForm() {
               onChange={(e) => setFieldValue("password", e.target.value)}
             />
           </label>
-          <Button variant="contained" type="submit">
+          <button className={css.registerBtn} type="submit">
             Register
-          </Button>
+          </button>
         </Form>
       )}
     </Formik>

@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { toast } from "react-hot-toast";
 import { login } from "../../redux/auth/operations";
 import css from "./LoginForm.module.css";
-import { Button, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 
 export default function LoginForm() {
   const dispatch = useDispatch();

@@ -8,7 +8,7 @@
   height: 100%;
   overflow: hidden;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-top: auto;
   padding: 20px 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -32,17 +32,6 @@ h1 {
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* для кращого вигляду */
 }
-/* h2 {
-  font-size: 2em;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-} */
 .text {
   font-size: 22px;
   color: #4503b7;
@@ -56,23 +45,3 @@ ul {
 li {
   margin-bottom: 10px;
 }
-
-/* strong {
-  color: #555;
-} */
-
-/* span[role="img"] {
-  margin-left: 10px;
-} */
-
-/* Additional styles for better readability and spacing */
-/* article {
-  margin-bottom: 40px;
-} */
-
-/* footer {
-  text-align: center;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
-} */

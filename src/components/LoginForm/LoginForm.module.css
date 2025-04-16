@@ -36,4 +36,12 @@
 }
 .loginBtn {
   background-color: #059d81;
+  color: #ffffff;
+  transition: background-color 250ms linear;
+}
+.loginBtn:focus,
+.loginBtn:hover {
+  outline: none;
+  border: #0a5043;
+  background-color: #0a5043;
 }

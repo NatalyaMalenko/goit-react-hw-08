@@ -22,9 +22,7 @@ export default function ContactsPage() {
       <ContactForm />
       <div>{isLoading && "Request in progress..."}</div>
       <SearchBox />
-      {/* <div className={css.contactsScrollArea}> */}
       <ContactList />
-      {/* </div> */}
     </div>
   );
 }
